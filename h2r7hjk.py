@@ -44,7 +44,7 @@ def banner():
 banner()
 amount = 5000
 sdt = input("\033[35mENTER NUMBER PHONE:")
-while not re.search("^(0?)(3[2-9]|5[6|8|9]|7[0|6-9]|8[0-6|8|9]|9[0-4|6-9])[0-9]{7}$",sdt):
+if (sdt = sdt.len()-1):
   print("NUMBER PHONE =10 !!")
   sdt = input("[+] Phone NumBer : ")
 count = int(input("[+] AMOUNT : "))
